@@ -1,0 +1,12 @@
+[submodule "42-libft/libft-testers/libft-test"]
+	path = 42-libft/libft-testers/libft-test
+	url = https://github.com/alelievr/libft-unit-test.git
+[submodule "42-libft/libft-testers/libft-libftest"]
+	path = 42-libft/libft-testers/libft-libftest
+	url = https://github.com/jtoty/Libftest.git
+[submodule "42-libft/libft-testers/libft-testers/libftest"]
+	path = 42-libft/libft-testers/libft-testers/libftest
+	url = https://github.com/jtoty/Libftest.git
+[submodule "42-libft/libft-testers/libftest"]
+	path = 42-libft/libft-testers/libftest
+	url = https://github.com/jtoty/Libftest.git
