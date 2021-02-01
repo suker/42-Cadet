@@ -1,0 +1,9 @@
+I would like to print this content of foo2.txt
+Come on printing second line
+
+
+
+
+
+
+after some blank spaces!

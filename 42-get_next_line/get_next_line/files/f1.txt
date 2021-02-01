@@ -1,0 +1,15 @@
+HOLA AMIGOS ESTE
+
+TEXTO ESTA GENERADO PARA COMPROBAR EL USO DE MI
+FUNCION GET_NEXT_LINE
+ESPERO QUEE TODO VAYA BIEN
+POR QUE SI NO VA A PASAR ALGO MUY GRAVE
+I would like to print this content of foo2.txt
+Come on printing second line
+
+
+
+
+
+
+after some blank spaces!
