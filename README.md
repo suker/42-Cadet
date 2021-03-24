@@ -5,8 +5,7 @@
 Cada uno de los proyectos contiene **PDFs** tanto en **español** como en **inglés** de las restricciones e instrucciones a seguir para resolver cada uno de los proyectos, si se desea una mayor comprensión de éstos, diríjase a sus respectivos PDFs.
 
 ## 📔 NORMALIZACIÓN
-Para llegar a ser un buen desarrollador no sólo debemos saber escribir **buen código**, sino que también debemos aprender a que nuestro código sea **lo más legible** posible para otros programadores. Es por ello que en 42, usamos nuestra propia `NORMA (norm)` a la hora de empezar un nuevo proyecto. Puedes echarle un vistazo aqui:
-`NORM GOES HERE`
+Para llegar a ser un buen desarrollador no sólo debemos saber escribir **buen código**, sino que también debemos aprender a que nuestro código sea **lo más legible** posible para otros programadores. Es por ello que en 42, usamos nuestra propia `NORMA (norm)` a la hora de empezar un nuevo proyecto. Puedes echarle un vistazo aqui: <a href="https://github.com/suker/42-Cadet/blob/master/en.normv3.pdf">NORMA</a>
 
 ## 📌 CRITERIOS DE CALIFICACIÓN Y EVALUACIÓN
 
@@ -23,9 +22,9 @@ A la hora de evaluar un proyecto en 42 no aceptamos un proyecto `casi bien` o un
 | Estimated time | Difficulty | Project | Bonus | Results |
 |-----|-------|-------|----------|----------|
 |🕐 1 week | Easy |<a href="https://github.com/suker/42-Cadet/tree/master/42-libft">Libft</a>| :white_check_mark: | 114/100 :white_check_mark:|
-|🕐 1 week| Easy |<a href="https://github.com/suker/42-projects/tree/master/SH01">Get_next_line</a>| :white_check_mark: | 113/100 ✅|
-|🕐 3 days| Easy |<a href="https://github.com/suker/42-projects/tree/master/C00">Netwhat</a>| ➖ | 100/100 :white_check_mark:|
-|🕐 1 ~ 2 weeks| Medium |<a href="https://github.com/suker/42-projects/tree/master/C01">Printf</a>| ✖️ | 100/100 :white_check_mark:|
+|🕐 1 week| Easy |<a href="https://github.com/suker/42-Cadet/tree/master/42-get_next_line">Get_next_line</a>| :white_check_mark: | 113/100 ✅|
+|🕐 3 days| Easy |<a href="https://github.com/suker/42-Cadet/tree/master/42-netwhat">Netwhat</a>| ➖ | 100/100 :white_check_mark:|
+|🕐 1 ~ 2 weeks| Medium |<a href="https://github.com/suker/42-Cadet/tree/master/42-ft_printf">Printf</a>| ✖️ | 100/100 :white_check_mark:|
 |🕐 1 week| Medium |<a href="https://github.com/suker/42-projects/tree/master/C02">Ft_server</a>| ➖ | 100/100 :white_check_mark:|
 |🕐 2 ~ 3 weeks| Hard |<a href="https://github.com/suker/42-projects/tree/master/C03">Cub3d</a>| ❔ | 0/100 ❔|
 |🕐 ❔| Medium |<a href="#">Exam_Rank_02</a>| ❔ | 0/100 ❔|
