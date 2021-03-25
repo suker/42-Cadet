@@ -200,6 +200,46 @@ Por lo tanto, si pretendemos leer un archivo con `1000 líneas de texto` y nuest
 
 =======================================================================================================
 
+# NETWHAT
+## 🌟 INTRODUCCIÓN
+
+La administración y sistemas de redes es una herramienta importante a la mano del futuro programador, conocer cómo se **envian y recibe la información** a través de internet de manera segura es crucial para ser capaces de gestionarla correctamente.
+
+Netwhat es un cuestionario. Este proyecto sirve para evaluar y ayudar a adquirir conocimientos sobre redes. Desde ahora puede empezar a leer **documentación sobre redes en Internet.**
+
+<br>
+
+## 🎯 OBJETIVO
+
+Superar el cuestionario que se encuentra en [netwhat](https://www.netwhat.42.fr). Este cuestionario consta de 20 preguntas tanto teóricas como prácticas.
+Además para agregarle un mayor grado de dificultad, cada pregunta consta de 30 segundos para su respuesta. Buena Suerte ❕
+
+<br>
+
+## 🐾 DESARROLLO
+
+El desarrollo de este proyecto no se basa en código, sino en teoría y práctica sobre redes. Abajo se detallan cada uno de los apartados a tomar en cuenta.
+
+- [¿Qué es una dirección IP?](https://www.es.paessler.com/it-explained/ip-address)
+- [¿Qué es una máscara de red?](https://es.wikipedia.org/wiki/M%C3%A1scara_de_red)
+- [¿Qué es la subred de una IP con máscara de red?](https://es.wikipedia.org/wiki/Subred#:~:text=En%20redes%20de%20computadoras%2C%20una,la%20red%20m%C3%A1s%20manejable%2C%20administrativamente.)
+- [¿Cuál es la dirección de transmisión (broadcast) de una subred?](https://www.ionos.es/digitalguide/servidores/know-how/broadcast-ip/)
+- [¿Cuáles son las diferentes formas de representar una dirección IP con la máscara de red?](https://codingornot.com/configuracion-de-redes-i-que-es-la-ip-y-la-mascara-de-subred)
+- [¿Cuáles son las diferencias entre IP pública y privada?](https://www.testdevelocidad.es/2016/08/04/direccion-ip-publica-privada-diferencias-saber-ip-cambiarla/#:~:text=La%20p%C3%BAblica%20es%20el%20identificador,el%20router%20asigna%20a%20nuestro)
+- [¿Qué es una clase de IP?](https://citelia.es/blog/tipos-direcciones-ip/)
+- [¿Qué es TCP (Protocolo de Control de Transmisión)?](https://developer.mozilla.org/es/docs/Glossary/TCP)
+- [¿What is UDP (Protocolo de Datagrama de Usuario)?](https://www.ionos.es/digitalguide/servidores/know-how/udp-user-datagram-protocol/)
+- [¿Qué son las capas de red?](https://es.wikipedia.org/wiki/Capa_de_red)
+- [¿Qué es el modelo OSI?](https://es.wikipedia.org/wiki/Modelo_OSI)
+- [¿Qué es un servidor DHCP y el protocolo DHCP?](https://www.ionos.es/digitalguide/servidores/configuracion/que-es-el-dhcp-y-como-funciona/)
+- [¿Qué es un servidor DNS y el protocolo DNS?](https://es.wikipedia.org/wiki/Sistema_de_nombres_de_dominio)
+- [¿Cuáles son las reglas para hacer que 2 dispositivos se comuniquen usando direcciones IP?](https://es.wikipedia.org/wiki/Red_de_computadoras)
+- [¿Cómo funciona el enrutamiento con IP?](https://ccnadesdecero.com/curso/enrutamiento-ip/)
+- [¿Qué es una puerta de enlace predeterminada para enrutamiento?](https://obstina-bourgas.org/diferente/que-es-la-puerta-de-enlace-predeterminada/)
+- [¿Qué es un puerto desde el punto de vista IP y para qué sirve cuando se conecta a otro dispositivo?](https://www.le-vpn.com/es/que-es-la-redireccion-de-puertos/)
+
+=======================================================================================================
+
 # FT_PRINTF
 ## 🌟 INTRODUCCIÓN
 
