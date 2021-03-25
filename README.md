@@ -1,12 +1,15 @@
 # :scroll: GUIA DE PROYECTOS REALIZADOS EN LA ESCUELA 42 NETWORK (BÉLGICA)
 =======================================================================================================
+- [Normas generales](#normas-generales)
+- [Proyectos realizados](#proyectos)
+  - [Libft](#libft)
+  - [Get next line](#get-next-line)
+  - [NetWhat](#netwhat)
+  - [Ft_printf](#ft-printf)
+  - [Ft_server](#ft-server)
 
-- [Libft](#libft)
-- [Get next line](#get-next-line)
-- [NetWhat](#netwhat)
-- [Ft_printf](#ft-printf)
-- [Ft_server](#ft-server)
 
+# NORMAS GENERALES
 
 ## IMPORTANTE ❗
 
@@ -51,6 +54,9 @@ Además, el evaluador podrá realizar preguntas sobre cómo se ha realizado el p
 |🕐 ❔| Hard |<a href="#">Webserv </a>| ❔ | 0/100 ❔|
 |🕐 ❔| Hardest |<a href="#">Ft_transcendence </a>| ❔ | 0/100 ❔|
 
+<br><br>
+# PROYECTOS
+=======================================================================================================
 # LIBFT
 ## 🌟 INTRODUCCIÓN
 
@@ -108,6 +114,9 @@ La función **ft_lstmap** recibirá como argumentos el **puntero a la lista**, *
 Lo que deberemos hacer es **crear una nueva lista** e ir guardando en ella el resultado de iterar cada elemento de la lista `lst` al aplicarle el contenido de la funcion `f`. En caso de error a la hora de alojar memoria con `malloc`, debemos **limpiar el contenido de nuestra nueva lista** y retornar `NULL`.
 
 
+
+
+
 # GET NEXT LINE
 
 ## 🌟 INTRODUCCIÓN
@@ -121,14 +130,12 @@ Escribir una función que devuelva una línea dentro de un archivo de texto que 
 
 ## 🐾 DESARROLLO
 
-<a href=".fd"> ¿Qué son y cómo se utilizan los descriptores de archivo? </a>
-
 Para desarrollar este proyecto, debemos entender una serie de conceptos:
-1. <a href="#fd"> ¿Qué son y cómo se utilizan los descriptores de archivo? </a>
-2. ¿Qué son las variables estáticas `static` y cuál es su uso en el proyecto?
-3. ¿Cómo funciona la función `read()`?
+1. **¿Qué son y cómo se utilizan los descriptores de archivo?**
+2. **¿Qué son las variables estáticas `static` y cuál es su uso en el proyecto?**
+3. **¿Cómo funciona la función `read()`?**
 
-### <section class="fd">1. ¿Qué son y cómo se utilizan los descriptores de archivo?</section>
+### 1. ¿Qué son y cómo se utilizan los descriptores de archivo?
 
 En **Unix** y **sistemas operativos** de computadora relacionados , **un descriptor de archivo** `FD` es un indicador abstracto (*identificador*) que se usa para **acceder a un archivo u otro recurso de entrada / salida**, como una tubería o un conector de red.
 
