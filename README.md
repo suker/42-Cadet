@@ -91,9 +91,7 @@ En este bonus se nos pide realizar una serie de funciones orientadas a la estruc
 La función **ft_lstmap** recibirá como argumentos el **puntero a la lista**, **el puntero a la función** `f` y **un puntero a la función** `del`.
 Lo que deberemos hacer es **crear una nueva lista** e ir guardando en ella el resultado de iterar cada elemento de la lista `lst` al aplicarle el contenido de la funcion `f`. En caso de error a la hora de alojar memoria con `malloc`, debemos **limpiar el contenido de nuestra nueva lista** y retornar `NULL`.
 
-
-
-
+=======================================================================================================
 
 # GET NEXT LINE
 
@@ -163,7 +161,7 @@ Por lo tanto, si pretendemos leer un archivo con `1000 líneas de texto` y nuest
 
 
 
-
+=======================================================================================================
 
 # TABLA DE PROYECTOS
 
