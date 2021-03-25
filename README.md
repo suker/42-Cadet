@@ -47,7 +47,7 @@ A través de este proyecto, te damos la oportunidad de extender tu lista de func
 
 **Generar una librería estática `libft.a` mediante el uso de un `Makefile` que contenga las funciones a realizar.**
 
-## 🐾 PASOS A SEGUIR PARA COMPLETAR EL PROYECTO
+## 🐾 DESARROLLO
 1. Recrear las funciones de **la parte obligatoria** (*parte 1 y parte 2*).
 2. Realizar la parte de bonus **(opcional si se desea una puntuación extra)**.
 3. Crear un **Makefile** para generar nuestra librería: `libft.a`.
@@ -109,11 +109,21 @@ Escribir una función que devuelva una línea dentro de un archivo de texto que 
 ## 🐾 DESARROLLO
 
 Para desarrollar este proyecto, debemos entender una serie de conceptos:
-1. **¿Qué son y cómo se utilizan los descriptores de archivo?**
-2. **¿Qué son las variables estáticas `static` y cuál es su uso en el proyecto?**
-3. **¿Cómo funciona la función `read()`?**
+1. **¿Cómo funciona `read()`, `open()`, `close()`?**
+2. **¿Qué son y cómo se utilizan los descriptores de archivo?**
+3. **¿Qué son las variables estáticas `static` y cuál es su uso en el proyecto?** 
 
-### 1. ¿Qué son y cómo se utilizan los descriptores de archivo?
+### 1. ¿Cómo funciona `read()`, `open()`, `close()`?
+
+Para un mayor entendimiento, referirse a sus respectivos manuales en el terminal: 🔶 e.g: `man 2 open` | `man 2 read` | `man 2 close`
+
+O consultar en estos enlaces:
+👉 [read](https://linux.die.net/man/3/read)
+👉 [open](https://linux.die.net/man/3/open)
+👉 [close](https://linux.die.net/man/3/close)
+
+
+### 2. ¿Qué son y cómo se utilizan los descriptores de archivo?
 
 En **Unix** y **sistemas operativos** de computadora relacionados , **un descriptor de archivo** `FD` es un indicador abstracto (*identificador*) que se usa para **acceder a un archivo u otro recurso de entrada / salida**, como una tubería o un conector de red.
 
@@ -127,6 +137,8 @@ Los descriptores de archivo forman parte de la interfaz de programación de la a
 | 2 | Error estándar | STDERR_FILENO | stderr |
 | > 2 | Indica el valor entero que le pertenece al archivo que está abierto | ➖ | ➖ |
 
+👉 [Fuente](https://es.qaz.wiki/wiki/File_descriptor) 👈
+
 Los descriptores de archivo podemos utilizarlos y obtenerlos en funciones básicas como:
 - **int open(const char *path, int oflag, ...):** `path` puntero a la ruta dónde se encuentra el archivo, `oflags` cómo queremos abrir nuesto archivo. e.g: **solo lectura: **`O_RDONLY`, ** sólo escritura**, `O_WRONLY`, **ambos:** `O_RDWR`
   - Librerias necesarias: `<fcntl.h>`.
@@ -139,7 +151,7 @@ Los descriptores de archivo podemos utilizarlos y obtenerlos en funciones básic
 
 #### Pasos básicos para operar con un archivo.
 
-1. Debemos de **abrir el archivo y sus permisos y asignarle el fd correspondiente**. E.g `int fd = open('/usr/suker/file.txt', O_RDWR);`.
+1. Debemos de **abrir el archivo y sus permisos y asignarle el fd correspondiente**. 🔶 E.g `int fd = open('/usr/suker/file.txt', O_RDWR);`.
   - Si `fd = -1`, el archivo **no existe el archivo o no se ha podido abrir correctamente**.
   - Si `fd > 2`, el archivo ha sido **abierto correctamente**.
 2. Procedemos a leer el archivo con `int num_bytes = read(fd, buf, nbyte);`.
@@ -147,7 +159,7 @@ Los descriptores de archivo podemos utilizarlos y obtenerlos en funciones básic
   - si `num_bytes > 0`, el archivo **ha leído** `num_bytes` de **bytes**.
 3. Tras haber leído `num_bytes` de caracteres y almacenado temporalmente en `buf` realizamos la **tarea necesaria con los datos leídos** y procedemos a cerrar nuestro archivo con `close(fd)`.
 
-### 2. ¿Qué son las variables estáticas `static` y cuál es su uso en el proyecto?
+### 3. ¿Qué son las variables estáticas `static` y cuál es su uso en el proyecto?
 
 Al tener restricciones en el uso de **variables globales** dentro de nuestro proyecto, debemos aprender lo que son las **variables estáticas** y para qué nos sirven.
 En resumen, una variable estática nos permite la **persistencia de información** aunque la función que la contenga se haya **terminado de ejectutar.** (recordemos que **el ámbito de una variable** nos limita desde dónde se puede acceder y manipular su contenido).
@@ -156,11 +168,21 @@ En resumen, una variable estática nos permite la **persistencia de información
 
 Por lo tanto, si pretendemos leer un archivo con `1000 líneas de texto` y nuestro `BUFFER_SIZE > Numero de bytes del archivo`, la lectura del archivo será en una sola llamada de `read()`, por lo que debemos hacer que nuestras líneas de texto **persistan en una sola variable** tras múltiples llamadas de `gnl()`.
 
-ℹ️ Para mayor entendimiento consultar el código ℹ️
+<p align="center">❗❗❗ PARA MAYOR ENTENDIMIENTO, CONSULTAR LOS COMENTARIOS DEL CÓDIGO ❗❗❗ </p>
 
+=======================================================================================================
 
+# FT_PRINTF
+## 🌟 INTRODUCCIÓN
 
+La programación en C puede ser muy tediosa cuando no se tiene acceso a las funciones estándar muy útiles. Este proyecto, te da la oportunidad de reescribir aquellas funciones para entenderlas y aprender a usarlas. La librería te ayudará para tus futuros proyectos en C.
+A través de este proyecto, te damos la oportunidad de extender tu lista de funciones a tu manera! Tómate tu tiempo para expandirla a lo largo del curso.
 
+## 🎯 OBJETIVO
+
+**Generar una librería estática `libft.a` mediante el uso de un `Makefile` que contenga las funciones a realizar.**
+
+## 🐾 DESARROLLO
 
 
 =======================================================================================================
