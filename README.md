@@ -9,7 +9,10 @@ Para llegar a ser un buen desarrollador no sólo debemos saber escribir **buen c
 
 ## 📌 CRITERIOS DE CALIFICACIÓN Y EVALUACIÓN
 
-A la hora de evaluar un proyecto en 42 no aceptamos un proyecto `casi bien` o un `99.99% completado`, sino que buscamos que nuestros estudiantes realicen cada uno de los proyectos cumpliendo con **TODOS** los requisitos previos y buscando siempre el `100%`.
+A la hora de evaluar un proyecto en 42 no aceptamos un proyecto `casi bien` o un `99.99% completado`, sino que buscamos que nuestros estudiantes realicen cada uno de los proyectos cumpliendo con **TODOS** los requisitos previos y buscando siempre el :100:%.
+
+**Los criterios son otorgados al evaluador cuando un proyecto está siendo evaluado.** El evaluador deberá por tanto ir leyendo y cumpliendo (testeando) cada uno de ellos.
+Además, el evaluador podrá realizar preguntas sobre cómo se ha realizado el proyecto y su estructura (_para saber si ha sido un copy & paste_).
 
 **Para que un proyecto sea calificado como válido se deben cumplir una serie de pasos:**
 - Todo proyecto debe **cumplir todas y cada una de las instrucciones** que se detallan tanto en el **PDF del proyecto** cómo en la **NORMA**.
@@ -26,7 +29,7 @@ A la hora de evaluar un proyecto en 42 no aceptamos un proyecto `casi bien` o un
 |🕐 3 days| Easy |<a href="https://github.com/suker/42-Cadet/tree/master/42-netwhat">Netwhat</a>| ➖ | 100/100 :white_check_mark:|
 |🕐 1 ~ 2 weeks| Medium |<a href="https://github.com/suker/42-Cadet/tree/master/42-ft_printf">Printf</a>| ✖️ | 100/100 :white_check_mark:|
 |🕐 1 week| Medium |<a href="https://github.com/suker/42-projects/tree/master/C02">Ft_server</a>| ➖ | 100/100 :white_check_mark:|
-|🕐 2 ~ 3 weeks| Hard |<a href="https://github.com/suker/42-projects/tree/master/C03">Cub3d</a>| ❔ | 0/100 ❔|
+| ⏰ Current Project| Hard |<a href="https://github.com/suker/42-projects/tree/master/C03">Cub3d</a>| ❔ | 0/100 ❔|
 |🕐 ❔| Medium |<a href="#">Exam_Rank_02</a>| ❔ | 0/100 ❔|
 |🕐 ❔| Easy |<a href="#">Libasm</a>| ❔ | 0/100 ❔|
 |🕐 ❔| Medium |<a href="#">Push_swap</a>| ❔ | 0/100 ❔|
@@ -46,28 +49,54 @@ A la hora de evaluar un proyecto en 42 no aceptamos un proyecto `casi bien` o un
 La programación en C puede ser muy tediosa cuando no se tiene acceso a las funciones estándar muy útiles. Este proyecto, te da la oportunidad de reescribir aquellas funciones para entenderlas y aprender a usarlas. La librería te ayudará para tus futuros proyectos en C.
 A través de este proyecto, te damos la oportunidad de extender tu lista de funciones a tu manera! Tómate tu tiempo para expandirla a lo largo del curso.
 
-## OBJETIVO
+## 🎯 OBJETIVO
 
-**Generar una librería estática `libft.a` por medio de un `MAKEFILE` que contenga las funciones a realizar.**
+**Generar una librería estática `libft.a` mediante el uso de un `Makefile` que contenga las funciones a realizar.**
 
-## PASOS A SEGUIR PARA COMPLETAR EL PROYECTO.
-1. Recrear las funciones de la parte mandatoria (parte 1 y parte 2).
+## 🐾 PASOS A SEGUIR PARA COMPLETAR EL PROYECTO.
+1. Recrear las funciones de **la parte obligatoria** (*parte 1 y parte 2*).
 2. Realizar la parte de bonus **(opcional si se desea una puntuación extra)**.
 3. Crear un **Makefile** para generar nuestra librería: `libft.a`.
 4. Testear nuestro código con testers personalizados propios o de terceros.
 
-# RESULTADOS
+### 🚢 Parte Obligatoria 1
 
-`FALTA POR COMPLETAR`
+Las funciones de la parte 1 son algunas de las funciones de la biblioteca estándar en C `libc`. Éstas funciones deberán ser realizadas conforme su manual `man` indica. Es decir, que para saber sus instrucciones debemos leer el manual ya sea en **Internet** o en el **terminal** del SO que utilicemos (*en nuestro caso MacOS*).
+
+🔶 **Por ejemplo:**
+`man` + `strlen` nos detalla el prototipo, descripción y valor a retornar de la función.
+
+![image](https://user-images.githubusercontent.com/1337928/112439792-d6c07c00-8d49-11eb-9fb3-27f739dbab33.png)
+
+### 🚀 Parte obligatoria 2
+
+Las funciones de ésta parte se encuentran detalladas en el **pdf**.
+
+🔶 **Por ejemplo:**
+
+![image](https://user-images.githubusercontent.com/1337928/112442192-e214a700-8d4b-11eb-9167-7a16a65fa8aa.png)
+
+En la función **ft_split**, se nos pide que al **recibir una cadena de caracteres `char * s` y un caracter como separador `char c` como argumentos**, debamos devolver o **retornar** un array de strings (*pointer of a pointer* or *2 dimensional array*) alojando memoria con **malloc**. En caso de error: retornar un puntero NULO `NULL`.
 
 
+### 💎 Parte Bonus
+
+Esta parte es considerada como **bonus**, y por tanto **solo será evaluada** si hemos completado **correctamente la parte obligatoria.**
+Normalmente los bonus requieren un **grado de complejidad mayor** con respecto a la anterior parte.
+
+Es decisión del programador realizar esta parte total o parcialmente ya que **los puntos extras** dependerá de los **criterios establecidos para su evaluación.**
+
+En este bonus se nos pide realizar una serie de funciones orientadas a la estructura de datos **listas enlazadas**, y para ello debemos hacer uso de las **estructuras** `struct` dentro de nuesto archivo **header** `.h`.
+
+![image](https://user-images.githubusercontent.com/1337928/112445068-0756e480-8d4f-11eb-8c4c-937ffd9427b3.png)
 
 
+🔶 **Por ejemplo:**
 
+![image](https://user-images.githubusercontent.com/1337928/112445378-5866d880-8d4f-11eb-8581-54e7b126f247.png)
 
-
-
-
+La función **ft_lstmap** recibirá como argumentos el **puntero a la lista**, **el puntero a la función** `f` y **un puntero a la función** `del`.
+Lo que deberemos hacer es **crear una nueva lista** e iterar nuestra lista del argumento para aplicarle a cada uno de los elementos de ésta el contenido de la funcion `f`. En caso de error a la hora de usar `malloc`, debemos **limpiar el contenido de nuestra nueva lista** y retornar `NULL`.
 
 
 
