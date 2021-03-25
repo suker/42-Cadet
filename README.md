@@ -1,6 +1,11 @@
 # :scroll: GUIA DE PROYECTOS REALIZADOS EN LA ESCUELA 42 NETWORK (BÉLGICA)
+==========================================================================
 
-- [LIBFT](#libft)
+- [Libft](#libft)
+- [Get next line](#get-next-line)
+- [NetWhat](#netwhat)
+- [Ft_printf](#ft-printf)
+- [Ft_server](#ft-server)
 
 
 ## IMPORTANTE ❗
@@ -30,7 +35,7 @@ Además, el evaluador podrá realizar preguntas sobre cómo se ha realizado el p
 |🕐 1 week | Easy |<a href="https://github.com/suker/42-Cadet/tree/master/42-libft">Libft</a>| :white_check_mark: | 114/115 :white_check_mark:|
 |🕐 2 week| Easy |<a href="https://github.com/suker/42-Cadet/tree/master/42-get_next_line">Get_next_line</a>| :white_check_mark: | 113/115 ✅|
 |🕐 1 week| Easy |<a href="https://github.com/suker/42-Cadet/tree/master/42-netwhat">Netwhat</a>| ➖ | 100/100 :white_check_mark:|
-|🕐 2 ~ 3 weeks| Medium |<a href="https://github.com/suker/42-Cadet/tree/master/42-ft_printf">Printf</a>| ✖️ | 100/115 :white_check_mark:|
+|🕐 2 ~ 3 weeks| Medium |<a href="https://github.com/suker/42-Cadet/tree/master/42-ft_printf">Ft_printf</a>| ✖️ | 100/115 :white_check_mark:|
 |🕐 1 week| Medium |<a href="https://github.com/suker/42-Cadet/tree/master/42-ft_server">Ft_server</a>| ➖ | 100/100 :white_check_mark:|
 | ⏰ Current Project| Hard |<a href="https://github.com/suker/42-projects/tree/master/C03">Cub3d</a>| ❔ | 0/100 ❔|
 |🕐 ❔| Medium |<a href="#">Exam_Rank_02</a>| ❔ | 0/100 ❔|
