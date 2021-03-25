@@ -114,9 +114,8 @@ Lo que deberemos hacer es **crear una nueva lista** e ir guardando en ella el re
 
 ## 🌟 INTRODUCCIÓN
 
-Este proyecto tiene como objetivo entender cómo see abren, leen y cierran los archivos de texto, y cómo se interpretran por medio de un lenguaje de programación.
-Esta tarea es crucial entender para un futuro programador ya que gran parte de las veces deberemos crear reportes en archivos de texto, deberemos acceder a ellos, operar con bases de datos, etc...
-
+Este proyecto tiene como objetivo entender cómo se abren, leen y cierran los archivos en un SO, y cómo se interpretran por medio de un lenguaje de programación para su posterior análisis.
+Esta tarea es crucial entender para un futuro programador ya que gran parte de nuestro tiempo se basa en manipular archivos para la gestión y persistencia de datos.
 
 <br>
 
