@@ -70,7 +70,8 @@ Las funciones de la parte 1 son algunas de las funciones de la biblioteca están
 
 ### 🚀 Parte obligatoria 2
 
-Las funciones de ésta parte se encuentran detalladas en el **pdf**.
+Las funciones de esta parte se encuentran detalladas en el **pdf**.
+
 
 🔶 **Por ejemplo:**
 
@@ -96,8 +97,7 @@ En este bonus se nos pide realizar una serie de funciones orientadas a la estruc
 ![image](https://user-images.githubusercontent.com/1337928/112445378-5866d880-8d4f-11eb-8581-54e7b126f247.png)
 
 La función **ft_lstmap** recibirá como argumentos el **puntero a la lista**, **el puntero a la función** `f` y **un puntero a la función** `del`.
-Lo que deberemos hacer es **crear una nueva lista** e iterar nuestra lista del argumento para aplicarle a cada uno de los elementos de ésta el contenido de la funcion `f`. En caso de error a la hora de usar `malloc`, debemos **limpiar el contenido de nuestra nueva lista** y retornar `NULL`.
-
+Lo que deberemos hacer es **crear una nueva lista** e ir guardando en ella el resultado de iterar cada elemento de la lista `lst` al aplicarle el contenido de la funcion `f`. En caso de error a la hora de alojar memoria con `malloc`, debemos **limpiar el contenido de nuestra nueva lista** y retornar `NULL`.
 
 
 
