@@ -1,3 +1,4 @@
+=======================================================================================================
 # :scroll: GUIA DE PROYECTOS REALIZADOS EN LA ESCUELA 42 NETWORK (BÉLGICA)
 =======================================================================================================
 - [Normas generales](#normas-generales)
@@ -33,6 +34,7 @@ Además, el evaluador podrá realizar preguntas sobre cómo se ha realizado el p
 
 
 <br><br>
+=======================================================================================================
 # PROYECTOS
 =======================================================================================================
 # LIBFT
@@ -162,9 +164,8 @@ Por lo tanto, si pretendemos leer un archivo con `1000 líneas de texto` y nuest
 
 
 =======================================================================================================
-
 # TABLA DE PROYECTOS
-
+=======================================================================================================
 | Estimated time | Difficulty | Project | Bonus | Results |
 |-----|-------|-------|----------|----------|
 |🕐 1 week | Easy |<a href="https://github.com/suker/42-Cadet/tree/master/42-libft">Libft</a>| :white_check_mark: | 114/115 :white_check_mark:|
