@@ -14,8 +14,24 @@ BUFFER_SIZE 9999 :
 No Diff
 
 ==========================================
+=========== GNL BONUS TESTS ==============
+==========================================
+BUFFER_SIZE 2 :
+No Diff
+BUFFER_SIZE 3 :
+No Diff
+BUFFER_SIZE 1 :
+No Diff
+BUFFER_SIZE 42 :
+No Diff
+BUFFER_SIZE 9999 :
+No Diff
+
+==========================================
 ============== HUGE TESTS ================
 ==========================================
 GNL :
+No Diff
+GNL BONUS :
 No Diff
 

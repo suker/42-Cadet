@@ -6,7 +6,7 @@
 /*   By: jubonill <jubonill@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/21 13:28:30 by jubonill          #+#    #+#             */
-/*   Updated: 2020/12/22 13:44:44 by jubonill         ###   ########.fr       */
+/*   Updated: 2021/03/25 17:48:25 by jubonill         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,15 @@ void	free_and_update(char **s, char *updated)
 	free(*s);
 	*s = updated;
 }
+
+/*
+** Analiza la linea a retornar.
+** Si en `s` hay mas newlines, movemos el puntero a una posicion más.
+** adelante al salto de linea y reasignamos memoria.
+**
+** Si `s` es la ultima línea, liberamos memoria de s y le asignamos a `line`
+** el contenido de ésta.
+*/
 
 int		get_line(char **s, char **line)
 {
@@ -41,6 +50,11 @@ int		get_line(char **s, char **line)
 	return (1);
 }
 
+/*
+** Función que concatena el contenido de la variable buffer dentro
+** de nuestra variable estática para la persistencia de la información.
+*/
+
 char	*get_buffer(char **s, char *buffer)
 {
 	char *buff_data;
@@ -63,6 +77,14 @@ int		solve(int b_read, char **s, char **line)
 		return (((*line = ft_strdup("")) != NULL) ? 0 : -1);
 	return (get_line(s, line));
 }
+
+/*
+** 1. Comprobamos posibles errores.
+** 2. leeremos BUFFER_SIZE bytes hasta un '\n' o b_read retorne -1 o 0.
+** 3. Almacenamos todo lo que leamos en nuestra variable estatica s.
+** 4. liberamos memoria del buffer.
+** 5. Analizamos el contenido de s y retornamos una string en `line'
+*/
 
 int		get_next_line(int fd, char **line)
 {
