@@ -145,7 +145,8 @@ O consultar en estos enlaces:
 👉 [open](https://linux.die.net/man/3/open)
 👉 [close](https://linux.die.net/man/3/close)
 
-#### Pasos básicos para operar con un archivo.
+
+<br><h4 align="center">Pasos básicos para operar con un archivo.</h4>
 
 1. Debemos de **abrir el archivo y sus permisos y asignarle el fd correspondiente**. 🔶 E.g `int fd = open('/usr/suker/file.txt', O_RDWR);`.
   - Si `fd = -1`, el archivo **no existe el archivo o no se ha podido abrir correctamente**.
