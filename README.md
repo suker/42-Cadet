@@ -10,9 +10,9 @@
   - [Ft_server](#ft-server)
 - [Tabla de proyectos](#tabla-de-proyectos)
 
-
+=======================================================================================================
 # NORMAS GENERALES
-
+=======================================================================================================
 ## IMPORTANTE ❗
 
 Cada uno de los proyectos contiene **PDFs** tanto en **español** como en **inglés** de las restricciones e instrucciones a seguir para resolver cada uno de los proyectos, si se desea una mayor comprensión de éstos, diríjase a sus respectivos PDFs.
@@ -33,10 +33,10 @@ Además, el evaluador podrá realizar preguntas sobre cómo se ha realizado el p
 - El proyecto debe ser **validado por Moulinette** (programa que evalua ciertos proyectos).
 
 
-<br><br>
 =======================================================================================================
 # PROYECTOS
 =======================================================================================================
+
 # LIBFT
 ## 🌟 INTRODUCCIÓN
 
