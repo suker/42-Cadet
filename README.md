@@ -18,11 +18,13 @@
 Cada uno de los proyectos contiene **PDFs** tanto en **español** como en **inglés** de las restricciones e instrucciones a seguir para resolver cada uno de los proyectos, si se desea una mayor comprensión de éstos, diríjase a sus respectivos PDFs.
 
 <br>
+
 ## 📔 NORMALIZACIÓN
 Para llegar a ser un buen desarrollador no sólo debemos saber escribir **buen código**, sino que también debemos aprender a que nuestro código sea **lo más legible** posible para otros programadores. Es por ello que en 42, usamos nuestra propia `NORMA (norm)` a la hora de empezar un nuevo proyecto. Puedes echarle un vistazo aqui: <a href="https://github.com/suker/42-Cadet/blob/master/en.normv3.pdf">NORMA</a>
 
 
 <br>
+
 ## 📌 CRITERIOS DE CALIFICACIÓN Y EVALUACIÓN
 
 A la hora de evaluar un proyecto en 42 no aceptamos un proyecto `casi bien` o un `99.99% completado`, sino que buscamos que nuestros estudiantes realicen cada uno de los proyectos cumpliendo con **TODOS** los requisitos previos y buscando siempre el :100:%.
@@ -48,11 +50,13 @@ A través de este proyecto, te damos la oportunidad de extender tu lista de func
 
 
 <br>
+
 ## 🎯 OBJETIVO
 
 **Generar una librería estática `libft.a` mediante el uso de un `Makefile` que contenga las funciones a realizar.**
 
 <br>
+
 ## 🐾 DESARROLLO
 1. Recrear las funciones de **la parte obligatoria** (*parte 1 y parte 2*).
 2. Realizar la parte de bonus **(opcional si se desea una puntuación extra)**.
@@ -60,6 +64,7 @@ A través de este proyecto, te damos la oportunidad de extender tu lista de func
 4. Testear nuestro código con testers personalizados propios o de terceros.
 
 <br>
+
 ### 🚢 Parte Obligatoria 1
 
 Las funciones de la parte 1 son algunas de las funciones de la biblioteca estándar en C `libc`. Éstas funciones deberán ser realizadas conforme su manual `man` indica. Es decir, que para saber sus instrucciones debemos leer el manual ya sea en **Internet** o en el **terminal** del SO que utilicemos (*en nuestro caso MacOS*).
@@ -70,6 +75,7 @@ Las funciones de la parte 1 son algunas de las funciones de la biblioteca están
 ![image](https://user-images.githubusercontent.com/1337928/112439792-d6c07c00-8d49-11eb-9fb3-27f739dbab33.png)
 
 <br>
+
 ### 🚀 Parte obligatoria 2
 
 Las funciones de esta parte se encuentran detalladas en el **pdf**.
@@ -82,6 +88,7 @@ Las funciones de esta parte se encuentran detalladas en el **pdf**.
 En la función **ft_split**, se nos pide que al **recibir una cadena de caracteres `char * s` y un caracter como separador `char c` como argumentos**, debamos devolver o **retornar** un array de strings (*pointer of a pointer* or *2 dimensional array*) alojando memoria con **malloc**. En caso de error: retornar un puntero NULO `NULL`.
 
 <br>
+
 ### 💎 Parte Bonus
 
 Esta parte es considerada como **bonus**, y por tanto **solo será evaluada** si hemos completado **correctamente la parte obligatoria.**
@@ -112,12 +119,14 @@ Esta tarea es crucial entender para un futuro programador ya que gran parte de l
 
 
 <br>
+
 ## 🎯 OBJETIVO
 
 Escribir una función que devuelva una línea dentro de un archivo de texto que termine con un salto de línea `char = '\n'`, leída desde un descriptor de archivos.
 
 
 <br>
+
 ## 🐾 DESARROLLO
 
 Para desarrollar este proyecto, debemos entender una serie de conceptos:
@@ -126,6 +135,7 @@ Para desarrollar este proyecto, debemos entender una serie de conceptos:
 3. **¿Qué son las variables estáticas `static` y cuál es su uso en el proyecto?** 
 
 <br>
+
 ### 1. ¿Cómo funciona `read()`, `open()`, `close()`?
 
 Para un mayor entendimiento, referirse a sus respectivos manuales en el terminal: 🔶 e.g: `man 2 open` | `man 2 read` | `man 2 close`
@@ -146,6 +156,7 @@ O consultar en estos enlaces:
 3. Tras haber leído `num_bytes` de caracteres y almacenado temporalmente en `buf` realizamos la **tarea necesaria con los datos leídos** y procedemos a cerrar nuestro archivo con `close(fd)`.
 
 <br>
+
 ### 2. ¿Qué son y cómo se utilizan los descriptores de archivo?
 
 En **Unix** y **sistemas operativos** de computadora relacionados , **un descriptor de archivo** `FD` es un indicador abstracto (*identificador*) que se usa para **acceder a un archivo u otro recurso de entrada / salida**, como una tubería o un conector de red.
@@ -174,6 +185,7 @@ Los descriptores de archivo podemos utilizarlos y obtenerlos en funciones básic
 
 
 <br>
+
 ### 3. ¿Qué son las variables estáticas `static` y cuál es su uso en el proyecto?
 
 Al tener restricciones en el uso de **variables globales** dentro de nuestro proyecto, debemos aprender lo que son las **variables estáticas** y para qué nos sirven.
@@ -192,18 +204,23 @@ Por lo tanto, si pretendemos leer un archivo con `1000 líneas de texto` y nuest
 
 La programación en C puede ser muy tediosa cuando no se tiene acceso a las funciones estándar muy útiles. Este proyecto, te da la oportunidad de reescribir aquellas funciones para entenderlas y aprender a usarlas. La librería te ayudará para tus futuros proyectos en C.
 A través de este proyecto, te damos la oportunidad de extender tu lista de funciones a tu manera! Tómate tu tiempo para expandirla a lo largo del curso.
+
 <br>
+
 ## 🎯 OBJETIVO
 
 **Generar una librería estática `libft.a` mediante el uso de un `Makefile` que contenga las funciones a realizar.**
 <br>
+
 ## 🐾 DESARROLLO
 
 
 =======================================================================================================
 # <h1 align="center">TABLA DE PROYECTOS</h1>
 =======================================================================================================
-<br>
+
+br>
+
 | Estimated time | Difficulty | Project | Bonus | Results |
 |-----|-------|-------|----------|----------|
 |🕐 1 week | Easy |<a href="https://github.com/suker/42-Cadet/tree/master/42-libft">Libft</a>| :white_check_mark: | 114/115 :white_check_mark:|
