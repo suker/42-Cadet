@@ -7,6 +7,7 @@
   - [NetWhat](#netwhat)
   - [Ft_printf](#ft-printf)
   - [Ft_server](#ft-server)
+- [Tabla de proyectos](#tabla-de-proyectos)
 
 
 # NORMAS GENERALES
@@ -30,29 +31,6 @@ Además, el evaluador podrá realizar preguntas sobre cómo se ha realizado el p
 - El proyecto debe ser **validado por 3 estudiantes**.
 - El proyecto debe ser **validado por Moulinette** (programa que evalua ciertos proyectos).
 
-
-## 📋 CURRICULUM DE PROYECTOS REALIZADOS EN 42
-
-| Estimated time | Difficulty | Project | Bonus | Results |
-|-----|-------|-------|----------|----------|
-|🕐 1 week | Easy |<a href="https://github.com/suker/42-Cadet/tree/master/42-libft">Libft</a>| :white_check_mark: | 114/115 :white_check_mark:|
-|🕐 2 week| Easy |<a href="https://github.com/suker/42-Cadet/tree/master/42-get_next_line">Get_next_line</a>| :white_check_mark: | 113/115 ✅|
-|🕐 1 week| Easy |<a href="https://github.com/suker/42-Cadet/tree/master/42-netwhat">Netwhat</a>| ➖ | 100/100 :white_check_mark:|
-|🕐 2 ~ 3 weeks| Medium |<a href="https://github.com/suker/42-Cadet/tree/master/42-ft_printf">Ft_printf</a>| ✖️ | 100/115 :white_check_mark:|
-|🕐 1 week| Medium |<a href="https://github.com/suker/42-Cadet/tree/master/42-ft_server">Ft_server</a>| ➖ | 100/100 :white_check_mark:|
-| ⏰ Current Project| Hard |<a href="https://github.com/suker/42-projects/tree/master/C03">Cub3d</a>| ❔ | 0/100 ❔|
-|🕐 ❔| Medium |<a href="#">Exam_Rank_02</a>| ❔ | 0/100 ❔|
-|🕐 ❔| Easy |<a href="#">Libasm</a>| ❔ | 0/100 ❔|
-|🕐 ❔| Medium |<a href="#">Push_swap</a>| ❔ | 0/100 ❔|
-|🕐 ❔| Hard |<a href="#">minishell</a>| ❔ | 0/100 ❔|
-|🕐 ❔| Medium |<a href="#">Ft_services</a>| ❔ | 0/100 ❔|
-|🕐 ❔| Hard |<a href="#">Exam_rank_3</a>| ❔ | 0/100 ❔|
-|🕐 ❔| Easy |<a href="#">Philosopher</a>| ❔ | 0/100 ❔|
-|🕐 ❔| Medium |<a href="#">CPP Module</a>| ❔ | 0/100 ❔|
-|🕐 ❔| Medium |<a href="#">Exam_Rank_4</a>|❔ | 0/100 ❔|
-|🕐 ❔| Medium |<a href="#">Ft_container </a>| ❔ | 0/100 ❔|
-|🕐 ❔| Hard |<a href="#">Webserv </a>| ❔ | 0/100 ❔|
-|🕐 ❔| Hardest |<a href="#">Ft_transcendence </a>| ❔ | 0/100 ❔|
 
 <br><br>
 # PROYECTOS
@@ -179,6 +157,37 @@ En resumen, una variable estática nos permite la **persistencia de información
 Por lo tanto, si pretendemos leer un archivo con `1000 líneas de texto` y nuestro `BUFFER_SIZE > Numero de bytes del archivo`, la lectura del archivo será en una sola llamada de `read()`, por lo que debemos hacer que nuestras líneas de texto **persistan en una sola variable** tras múltiples llamadas de `gnl()`.
 
 ℹ️ Para mayor entendimiento consultar el código ℹ️
+
+
+
+
+
+
+
+
+# TABLA DE PROYECTOS
+
+| Estimated time | Difficulty | Project | Bonus | Results |
+|-----|-------|-------|----------|----------|
+|🕐 1 week | Easy |<a href="https://github.com/suker/42-Cadet/tree/master/42-libft">Libft</a>| :white_check_mark: | 114/115 :white_check_mark:|
+|🕐 2 week| Easy |<a href="https://github.com/suker/42-Cadet/tree/master/42-get_next_line">Get_next_line</a>| :white_check_mark: | 113/115 ✅|
+|🕐 1 week| Easy |<a href="https://github.com/suker/42-Cadet/tree/master/42-netwhat">Netwhat</a>| ➖ | 100/100 :white_check_mark:|
+|🕐 2 ~ 3 weeks| Medium |<a href="https://github.com/suker/42-Cadet/tree/master/42-ft_printf">Ft_printf</a>| ✖️ | 100/115 :white_check_mark:|
+|🕐 1 week| Medium |<a href="https://github.com/suker/42-Cadet/tree/master/42-ft_server">Ft_server</a>| ➖ | 100/100 :white_check_mark:|
+| ⏰ Current Project| Hard |<a href="https://github.com/suker/42-projects/tree/master/C03">Cub3d</a>| ❔ | 0/100 ❔|
+|🕐 ❔| Medium |<a href="#">Exam_Rank_02</a>| ❔ | 0/100 ❔|
+|🕐 ❔| Easy |<a href="#">Libasm</a>| ❔ | 0/100 ❔|
+|🕐 ❔| Medium |<a href="#">Push_swap</a>| ❔ | 0/100 ❔|
+|🕐 ❔| Hard |<a href="#">minishell</a>| ❔ | 0/100 ❔|
+|🕐 ❔| Medium |<a href="#">Ft_services</a>| ❔ | 0/100 ❔|
+|🕐 ❔| Hard |<a href="#">Exam_rank_3</a>| ❔ | 0/100 ❔|
+|🕐 ❔| Easy |<a href="#">Philosopher</a>| ❔ | 0/100 ❔|
+|🕐 ❔| Medium |<a href="#">CPP Module</a>| ❔ | 0/100 ❔|
+|🕐 ❔| Medium |<a href="#">Exam_Rank_4</a>|❔ | 0/100 ❔|
+|🕐 ❔| Medium |<a href="#">Ft_container </a>| ❔ | 0/100 ❔|
+|🕐 ❔| Hard |<a href="#">Webserv </a>| ❔ | 0/100 ❔|
+|🕐 ❔| Hardest |<a href="#">Ft_transcendence </a>| ❔ | 0/100 ❔|
+
 
 
 # LIBFT
