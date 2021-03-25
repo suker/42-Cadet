@@ -17,8 +17,12 @@
 
 Cada uno de los proyectos contiene **PDFs** tanto en **español** como en **inglés** de las restricciones e instrucciones a seguir para resolver cada uno de los proyectos, si se desea una mayor comprensión de éstos, diríjase a sus respectivos PDFs.
 
+
+
 ## 📔 NORMALIZACIÓN
 Para llegar a ser un buen desarrollador no sólo debemos saber escribir **buen código**, sino que también debemos aprender a que nuestro código sea **lo más legible** posible para otros programadores. Es por ello que en 42, usamos nuestra propia `NORMA (norm)` a la hora de empezar un nuevo proyecto. Puedes echarle un vistazo aqui: <a href="https://github.com/suker/42-Cadet/blob/master/en.normv3.pdf">NORMA</a>
+
+
 
 ## 📌 CRITERIOS DE CALIFICACIÓN Y EVALUACIÓN
 
@@ -43,15 +47,20 @@ Además, el evaluador podrá realizar preguntas sobre cómo se ha realizado el p
 La programación en C puede ser muy tediosa cuando no se tiene acceso a las funciones estándar muy útiles. Este proyecto, te da la oportunidad de reescribir aquellas funciones para entenderlas y aprender a usarlas. La librería te ayudará para tus futuros proyectos en C.
 A través de este proyecto, te damos la oportunidad de extender tu lista de funciones a tu manera! Tómate tu tiempo para expandirla a lo largo del curso.
 
+
+
 ## 🎯 OBJETIVO
 
 **Generar una librería estática `libft.a` mediante el uso de un `Makefile` que contenga las funciones a realizar.**
+
+
 
 ## 🐾 DESARROLLO
 1. Recrear las funciones de **la parte obligatoria** (*parte 1 y parte 2*).
 2. Realizar la parte de bonus **(opcional si se desea una puntuación extra)**.
 3. Crear un **Makefile** para generar nuestra librería: `libft.a`.
 4. Testear nuestro código con testers personalizados propios o de terceros.
+
 
 ### 🚢 Parte Obligatoria 1
 
@@ -61,6 +70,7 @@ Las funciones de la parte 1 son algunas de las funciones de la biblioteca están
 `man` + `strlen` nos detalla el prototipo, descripción y valor a retornar de la función.
 
 ![image](https://user-images.githubusercontent.com/1337928/112439792-d6c07c00-8d49-11eb-9fb3-27f739dbab33.png)
+
 
 ### 🚀 Parte obligatoria 2
 
@@ -102,9 +112,13 @@ Lo que deberemos hacer es **crear una nueva lista** e ir guardando en ella el re
 Este proyecto tiene como objetivo entender cómo see abren, leen y cierran los archivos de texto, y cómo se interpretran por medio de un lenguaje de programación.
 Esta tarea es crucial entender para un futuro programador ya que gran parte de las veces deberemos crear reportes en archivos de texto, deberemos acceder a ellos, operar con bases de datos, etc...
 
+
+
 ## 🎯 OBJETIVO
 
 Escribir una función que devuelva una línea dentro de un archivo de texto que termine con un salto de línea `char = '\n'`, leída desde un descriptor de archivos.
+
+
 
 ## 🐾 DESARROLLO
 
