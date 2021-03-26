@@ -361,7 +361,7 @@ Crear y mantener un servidor web `Nginx` utilizando la tecnología `Docker` para
 
 ## 🐾 DESARROLLO
 
-La mayor parte de este proyecto se basa en leer la documentación de cada uno de los apartados a implementar: `Docker` como gestor de aplicaciones `Nginx` cómo servidor web, `Wordpress` cómo gestor de contenido web, `phpmyadmin` cómo gestor de nuestra base de datos a través de la web, y por último, `SQL o MariaDB` cómo nuestra base de datos.
+La mayor parte de este proyecto se basa en leer la documentación de cada uno de los apartados a implementar: `Docker` como gestor de aplicaciones `Nginx` como servidor web, `Wordpress` como gestor de contenido web, `phpmyadmin` como gestor de nuestra base de datos a través de la web, y por último, `SQL o MariaDB` como nuestra base de datos.
 
 Recursos utilizados:
 - [Docker](https://docs.docker.com/get-started/)
