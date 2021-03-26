@@ -69,10 +69,16 @@ A través de este proyecto, te damos la oportunidad de extender tu lista de func
 
 Las funciones de la parte 1 son algunas de las funciones de la biblioteca estándar en C `libc`. Éstas funciones deberán ser realizadas conforme su manual `man` indica. Es decir, que para saber sus instrucciones debemos leer el manual ya sea en **Internet** o en el **terminal** del SO que utilicemos (*en nuestro caso MacOS*).
 
-🔶 **Por ejemplo:**
-`man` + `strlen` nos detalla el prototipo, descripción y valor a retornar de la función.
+<details>
+  
+  <summary>🔶 Por ejemplo</summary>
+  <b> 'man strlen' nos detalla el prototipo, descripción y valor a retornar de la función.</b><br>
+  
+  
+  
+  ![image](https://user-images.githubusercontent.com/1337928/112439792-d6c07c00-8d49-11eb-9fb3-27f739dbab33.png)
 
-![image](https://user-images.githubusercontent.com/1337928/112439792-d6c07c00-8d49-11eb-9fb3-27f739dbab33.png)
+</details>
 
 <br>
 
@@ -80,12 +86,19 @@ Las funciones de la parte 1 son algunas de las funciones de la biblioteca están
 
 Las funciones de esta parte se encuentran detalladas en el **pdf**.
 
+<details>
+  
+  <summary>🔶 Por ejemplo</summary>
+  
+  ![image](https://user-images.githubusercontent.com/1337928/112442192-e214a700-8d4b-11eb-9167-7a16a65fa8aa.png)
+  <br>
+  
+  En la función **ft_split**, se nos pide que al **recibir una cadena de caracteres `char * s` y un caracter como separador `char c` como argumentos**, debamos     devolver o **retornar** un array de strings (*pointer of a pointer* or *2 dimensional array*) alojando memoria con **malloc**. En caso de error: retornar un     puntero NULO `NULL`.
 
-🔶 **Por ejemplo:**
+</details>
 
-![image](https://user-images.githubusercontent.com/1337928/112442192-e214a700-8d4b-11eb-9167-7a16a65fa8aa.png)
 
-En la función **ft_split**, se nos pide que al **recibir una cadena de caracteres `char * s` y un caracter como separador `char c` como argumentos**, debamos devolver o **retornar** un array de strings (*pointer of a pointer* or *2 dimensional array*) alojando memoria con **malloc**. En caso de error: retornar un puntero NULO `NULL`.
+
 
 <br>
 
@@ -97,16 +110,25 @@ Normalmente los bonus requieren un **grado de complejidad mayor** con respecto a
 Es decisión del programador realizar esta parte total o parcialmente ya que **los puntos extras** dependerá de los **criterios establecidos para su evaluación.**
 
 En este bonus se nos pide realizar una serie de funciones orientadas a la estructura de datos **listas enlazadas**, y para ello debemos hacer uso de las **estructuras** `struct` dentro de nuesto archivo **header** `.h`.
+<details>
+  
+  <summary>Clikea para ver el HEADER!</summary>
+  
+  ![image](https://user-images.githubusercontent.com/1337928/112445068-0756e480-8d4f-11eb-8c4c-937ffd9427b3.png)
+  
+</details>
 
-![image](https://user-images.githubusercontent.com/1337928/112445068-0756e480-8d4f-11eb-8c4c-937ffd9427b3.png)
-
-
-🔶 **Por ejemplo:**
+<details>
+  
+  <summary>🔶 Por ejemplo</summary>
 
 ![image](https://user-images.githubusercontent.com/1337928/112445378-5866d880-8d4f-11eb-8581-54e7b126f247.png)
 
 La función **ft_lstmap** recibirá como argumentos el **puntero a la lista**, **el puntero a la función** `f` y **un puntero a la función** `del`.
 Lo que deberemos hacer es **crear una nueva lista** e ir guardando en ella el resultado de iterar cada elemento de la lista `lst` al aplicarle el contenido de la funcion `f`. En caso de error a la hora de alojar memoria con `malloc`, debemos **limpiar el contenido de nuestra nueva lista** y retornar `NULL`.
+
+</details>
+
 
 =======================================================================================================
 
