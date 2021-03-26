@@ -260,8 +260,8 @@ En este proyecto se pretende recrear la función de la libreria estándar `print
 La clave para resolver este proyecto está en **estructurar bien las funciones y dividir el trabajo** (*divide y venceras strategy!*).
 Antes de entrar en el algoritmo del proyecto, deberemos estar familiarizados con un par de puntos:
 
-1. ¿Qué son las funciones variádicas?
-2. ¿Cuál es el uso de la función printf y cómo maneja sus argumentos?
+1. **¿Qué son las funciones variádicas?**
+2. **¿Cuál es el uso de la función printf y cómo maneja sus argumentos?**
 
 ### 1. ¿Qué son las funciones variádicas?
 
