@@ -332,10 +332,61 @@ que nos llevan a desarrollar cada vez mejor. Para mí este proyecto lo he divido
     - Caso contrario, procedemos a printear nuestro contenido. 
 
 4. Recorremos el formato buscando **caractes sin formato**, **caracteres de escape** y **caracteres con formato** hasta llegar al final de la string.
-5. Por último debemos **liberar la memoria asignada de nuestra lista**.
-6. Retornamos el **número de caracteres impresos.**
+5. Debemos **liberar la memoria asignada de nuestra lista**.
+6. Y por último, **retornamos el número de caracteres impresos.**
 
 <br><p align="center">❗❗❗ PARA MAYOR ENTENDIMIENTO, CONSULTAR LOS COMENTARIOS DEL CÓDIGO ❗❗❗ </p><br><br>
+
+=======================================================================================================
+
+# FT SERVER
+## 🌟 INTRODUCCIÓN
+
+
+
+<br>
+
+## 🎯 OBJETIVO
+
+
+
+<br>
+
+## 🐾 DESARROLLO
+
+La clave para resolver este proyecto está en **estructurar bien las funciones y dividir el trabajo** (*divide y venceras strategy!*).
+Antes de entrar en el algoritmo del proyecto, deberemos estar familiarizados con un par de puntos:
+
+1. **¿Qué son las funciones variádicas?**
+2. **¿Cuál es el uso de la función printf y cómo maneja sus argumentos?**
+
+### 1. ¿Qué son las funciones variádicas?
+
+En resumen, **las funciones variádicas** nos permiten recibir un **número variable de argumentos**.
+Esto nos da una gran abanico de posibilidades cuándo trabajamos con funciones que requieren **múltiples parámetros** de entrada o una gran variedad de tipos de datos.
+
+ℹ️ Para más información: [Funciones variádicas](https://trucosinformaticos.wordpress.com/2018/11/25/funciones-variadicas/)
+
+### 2. ¿Cuál es el uso de la función printf y cómo maneja sus argumentos?
+
+
+
+<details>
+  <summary>Prototipo y campos requeridos de PRINTF</summary>
+   <b>Prototipo: int printf(const char * format, ...);</b>
+  
+  ![image](https://user-images.githubusercontent.com/1337928/112623049-26777400-8e2c-11eb-90ce-ddfb273db9e0.png)
+
+</details>
+
+
+ℹ️ Para más información: [Función printf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/format-specification-syntax-printf-and-wprintf-functions?view=msvc-160)
+
+<br>
+
+## 💥 ALGORITMO:
+
+
 
 =======================================================================================================
 # <h1 align="center">TABLA DE PROYECTOS</h1>
