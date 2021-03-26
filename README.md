@@ -240,7 +240,7 @@ El desarrollo de este proyecto no se basa en código, sino en teoría y práctic
 
 =======================================================================================================
 
-# FT_PRINTF
+# FT PRINTF
 ## 🌟 INTRODUCCIÓN
 
 Este proyecto te permitirá descubrir las **funciones variádicas** y su potencial impacto dentro de la programación.
@@ -319,7 +319,7 @@ que nos llevan a desarrollar cada vez mejor. Para mí este proyecto lo he divido
 # <h1 align="center">TABLA DE PROYECTOS</h1>
 =======================================================================================================
 
-br>
+<br>
 
 | Estimated time | Difficulty | Project | Bonus | Results |
 |-----|-------|-------|----------|----------|
