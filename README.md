@@ -1,6 +1,6 @@
-==========================================================================================
+=====================================================================================
 # :scroll: GUIA DE PROYECTOS REALIZADOS EN LA ESCUELA 42 NETWORK (BÉLGICA)
-==========================================================================================
+=====================================================================================
 - [Normas generales](#normas-generales)
 - [Proyectos realizados](#proyectos)
   - [Libft](#libft)
@@ -10,9 +10,9 @@
   - [Ft_server](#ft-server)
 - [Tabla de proyectos](#tabla-de-proyectos)
 
-=======================================================================================================
+=====================================================================================
 # <h1 align="center">NORMAS GENERALES</h1>
-=======================================================================================================
+=====================================================================================
 ## IMPORTANTE ❗
 
 Cada uno de los proyectos contiene **PDFs** tanto en **español** como en **inglés** de las restricciones e instrucciones a seguir para resolver cada uno de los proyectos, si se desea una mayor comprensión de éstos, diríjase a sus respectivos PDFs.
@@ -38,9 +38,9 @@ Además, el evaluador podrá realizar preguntas sobre cómo se ha realizado el p
 - El proyecto debe ser **validado por Moulinette** (programa que evalua ciertos proyectos).
 
 
-=======================================================================================================
+=====================================================================================
 # <h1 align="center">PROYECTOS</h1>
-=======================================================================================================
+=====================================================================================
 
 # LIBFT
 ## 🌟 INTRODUCCIÓN
@@ -130,7 +130,7 @@ Lo que deberemos hacer es **crear una nueva lista** e ir guardando en ella el re
 </details>
 
 
-=======================================================================================================
+=====================================================================================
 
 # GET NEXT LINE
 
@@ -221,7 +221,7 @@ Por lo tanto, si pretendemos leer un archivo con `1000 líneas de texto` y nuest
 
 <p align="center">❗❗❗ PARA MAYOR ENTENDIMIENTO, CONSULTAR LOS COMENTARIOS DEL CÓDIGO ❗❗❗ </p>
 
-=======================================================================================================
+=====================================================================================
 
 # NETWHAT
 ## 🌟 INTRODUCCIÓN
@@ -263,7 +263,7 @@ El desarrollo de este proyecto no se basa en código, sino en teoría y práctic
 - [¿Qué es una puerta de enlace predeterminada para enrutamiento?](https://obstina-bourgas.org/diferente/que-es-la-puerta-de-enlace-predeterminada/)
 - [¿Qué es un puerto desde el punto de vista IP y para qué sirve cuando se conecta a otro dispositivo?](https://www.le-vpn.com/es/que-es-la-redireccion-de-puertos/)
 
-=======================================================================================================
+=====================================================================================
 
 # FT PRINTF
 ## 🌟 INTRODUCCIÓN
@@ -342,7 +342,7 @@ que nos llevan a desarrollar cada vez mejor. Para mí este proyecto lo he divido
 
 <br><p align="center">❗❗❗ PARA MAYOR ENTENDIMIENTO, CONSULTAR LOS COMENTARIOS DEL CÓDIGO ❗❗❗ </p><br><br>
 
-=======================================================================================================
+=====================================================================================
 
 # FT SERVER
 ## 🌟 INTRODUCCIÓN
@@ -377,9 +377,9 @@ Recursos utilizados:
   - [Videos de cómo montar tu servidor web usando estas tecnologias (MUY ÚTIL)](https://www.youtube.com/watch?v=_LQv96MdtCk)
 
 
-=======================================================================================================
+=====================================================================================
 # <h1 align="center">TABLA DE PROYECTOS</h1>
-=======================================================================================================
+=====================================================================================
 
 <br>
 
