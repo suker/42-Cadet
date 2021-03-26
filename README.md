@@ -2,7 +2,7 @@
 # :scroll: GUIA DE PROYECTOS REALIZADOS EN LA ESCUELA 42 NETWORK (BÉLGICA)
 =====================================================================================
 - [Normas generales](#normas-generales)
-- [Proyectos realizados](#proyectos)
+- [Proyectos realizados](#proyectos-realizados)
   - [Libft](#libft)
   - [Get next line](#get-next-line)
   - [NetWhat](#netwhat)
@@ -39,7 +39,7 @@ Además, el evaluador podrá realizar preguntas sobre cómo se ha realizado el p
 
 
 =====================================================================================
-# <h1 align="center">PROYECTOS</h1>
+# <h1 align="center">PROYECTOS REALIZADOS</h1>
 =====================================================================================
 
 # LIBFT
