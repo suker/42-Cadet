@@ -327,7 +327,7 @@ que nos llevan a desarrollar cada vez mejor. Para mí este proyecto lo he divido
 
 2. Por cada estructura, rellenamos sus variables en base a qué tipo de argumentos recibimos: 🔶 e.g: tipo `%d int`, `%s char *`, `%p pointer`, `%10.2u unsigned con width y precision`, ect..
 
-3. Comprobamos si cada elemento de nuestra lista contiene algún fallo en la **syntaxis del especificador de formato**: e.g: tipo `%432f.3$$d`.
+3. Comprobamos si cada elemento de nuestra lista contiene algún fallo en la **syntaxis del especificador de formato**: 🔶 e.g: tipo `%432f.3$$d`.
     - Si **existe un error**, **liberamos la memoria** asignada de nuestra lista de estructuras y **retornamos -1.**
     - Caso contrario, procedemos a printear nuestro contenido. 
 
