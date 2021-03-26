@@ -342,13 +342,15 @@ que nos llevan a desarrollar cada vez mejor. Para mí este proyecto lo he divido
 # FT SERVER
 ## 🌟 INTRODUCCIÓN
 
-
+Este tema tiene como objetivo presentar la **administración del sistema**. Te hará consciente de la importancia de utilizar **scripts para automatizar tus tareas.** Para eso, descubrirás la tecnología `docker` y la usarás para instalar un **servidor web completo.** Este servidor ejecutará múltiples servicios: **Wordpress, phpMyAdmin y una base de datos SQL.**
 
 <br>
 
 ## 🎯 OBJETIVO
 
+Crear y mantener un servidor web `Nginx` utilizando `Docker`. Usaremos los servicios de **Wordpress, phpmyadmin y MariaDB** para el despliegue de nuestra web.
 
+ℹ️ Para más información: [PDF](https://github.com/suker/42-Cadet/blob/master/42-ft_server/es.subject.pdf)
 
 <br>
 
