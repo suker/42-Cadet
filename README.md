@@ -377,23 +377,6 @@ Recursos utilizados:
   - [Videos de cómo montar tu servidor web usando estas tecnologias (MUY ÚTIL)](https://www.youtube.com/watch?v=_LQv96MdtCk)
 
 
-
-<details>
-  <summary>Prototipo y campos requeridos de PRINTF</summary>
-   <b>Prototipo: int printf(const char * format, ...);</b>
-  
-  ![image](https://user-images.githubusercontent.com/1337928/112623049-26777400-8e2c-11eb-90ce-ddfb273db9e0.png)
-
-</details>
-
-ℹ️ Para más información: [Función printf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/format-specification-syntax-printf-and-wprintf-functions?view=msvc-160)
-
-<br>
-
-## 💥 ALGORITMO:
-
-
-
 =======================================================================================================
 # <h1 align="center">TABLA DE PROYECTOS</h1>
 =======================================================================================================
@@ -422,16 +405,3 @@ Recursos utilizados:
 |🕐 ❔| Hardest |<a href="#">Ft_transcendence </a>| ❔ | 0/100 ❔|
 
 
-
-# LIBFT
-## INTRODUCTION
-
-C programming can be very tedious when one doesn’t have access to those highly useful standard functions. This project gives you the opportunity to re-write those functions, understand them, and learn to use them. This library will help you for all your future C projects.
-Through this project, we also give you the opportunity to expand the list of functions with your own. Take the time to expand your libft throughout the year.
-
-
-
-This document describes the applicable standard (Norm) at 42. A
-programming standard defines a set of rules to follow when writing code. The Norm
-applies to all C projects within the Inner Circle by default, and to any project where it’s
-specified.
