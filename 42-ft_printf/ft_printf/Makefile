@@ -6,7 +6,7 @@
 #    By: jubonill <jubonill@student.s19.be>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/11/28 16:26:08 by jubonill          #+#    #+#              #
-#    Updated: 2021/01/20 08:52:16 by jubonill         ###   ########.fr        #
+#    Updated: 2021/02/15 16:16:42 by jubonill         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -55,7 +55,8 @@ pmake:
 		${LIBFTMAKE}
 
 clean:
-		${RM} ${SRCS_OBJS} ${LIBFT_OBJS}
+		make -C ${LIBFT_PATH} clean
+		${RM} ${SRCS_OBJS}
 
 fclean:		clean
 		${RM} ${NAME} ${LIBFT_PATH}${LIBFT_LIB}

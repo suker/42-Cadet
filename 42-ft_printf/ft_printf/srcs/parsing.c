@@ -6,7 +6,7 @@
 /*   By: jubonill <jubonill@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/03 14:50:51 by jubonill          #+#    #+#             */
-/*   Updated: 2021/01/10 22:43:59 by jubonill         ###   ########.fr       */
+/*   Updated: 2021/03/25 18:00:04 by jubonill         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,11 @@ void	free_and_update(t_print **elem)
 		(*elem)->numchars = ft_strlen((*elem)->arg);
 	}
 }
+
+/*
+** Función que asigna el numero de caracteres en base al specifier
+** de un elemento de la lista.
+*/
 
 void	parsing_numchars(t_print **elem)
 {
@@ -80,6 +85,11 @@ void	parsing_numblanks(t_print **elem)
 		}
 	}
 }
+
+/*
+** Función que obtiene el numero de caracteres, zeros, espacios
+** de cada uno de nuestros elementos de la lista.
+*/
 
 void	parsing_fields(t_print **lst)
 {

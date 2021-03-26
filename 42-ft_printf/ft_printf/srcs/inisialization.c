@@ -6,7 +6,7 @@
 /*   By: jubonill <jubonill@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/21 10:01:27 by jubonill          #+#    #+#             */
-/*   Updated: 2020/12/23 10:36:09 by jubonill         ###   ########.fr       */
+/*   Updated: 2021/03/25 18:04:19 by jubonill         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -106,6 +106,12 @@ t_print **lst)
 		aux = aux->next;
 	}
 }
+
+/*
+** Función que inicializa nuestra estructura t_print *lst
+** y calcula los valores de sus  parámetros obteniendo flag,
+** width, precision, specifier y el argumento recibido.
+*/
 
 int			init_lst(const char *format, va_list arg_p, t_print **lst)
 {

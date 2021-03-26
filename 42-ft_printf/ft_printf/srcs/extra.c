@@ -6,7 +6,7 @@
 /*   By: jubonill <jubonill@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/22 15:28:51 by jubonill          #+#    #+#             */
-/*   Updated: 2020/12/22 15:29:39 by jubonill         ###   ########.fr       */
+/*   Updated: 2021/03/25 18:05:53 by jubonill         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,8 +53,9 @@ int		get_zerosblanks(int x, int y)
 }
 
 /*
-** check_allocations helps us to track if every element of our lst
-** contains a valid argument, otherwise we clean & return 0.
+** Función de trackeo de que cada elemento de nuestra lista
+** contenga un elemento válido, en caso contrario, llamamos
+** a la función ft_lstclear().
 */
 
 int		check_allocation(t_print **lst)
