@@ -129,6 +129,7 @@ Escribir una función que devuelva una línea dentro de un archivo de texto que 
 ## 🐾 DESARROLLO
 
 Para desarrollar este proyecto, debemos entender una serie de conceptos:
+
 1. **¿Cómo funciona `read()`, `open()`, `close()`?**
 2. **¿Qué son y cómo se utilizan los descriptores de archivo?**
 3. **¿Qué son las variables estáticas `static` y cuál es su uso en el proyecto?** 
@@ -242,18 +243,77 @@ El desarrollo de este proyecto no se basa en código, sino en teoría y práctic
 # FT_PRINTF
 ## 🌟 INTRODUCCIÓN
 
-La programación en C puede ser muy tediosa cuando no se tiene acceso a las funciones estándar muy útiles. Este proyecto, te da la oportunidad de reescribir aquellas funciones para entenderlas y aprender a usarlas. La librería te ayudará para tus futuros proyectos en C.
-A través de este proyecto, te damos la oportunidad de extender tu lista de funciones a tu manera! Tómate tu tiempo para expandirla a lo largo del curso.
+Este proyecto te permitirá descubrir las **funciones variádicas** y su potencial impacto dentro de la programación.
+La **versatilidad de la función printf** en C representa un gran ejercicio de programación para nosotros.
+La clave para un ft_printf exitoso es un **código extensible y bien estructurado.**
 
 <br>
 
 ## 🎯 OBJETIVO
 
-**Generar una librería estática `libft.a` mediante el uso de un `Makefile` que contenga las funciones a realizar.**
+En este proyecto se pretende recrear la función de la libreria estándar `printf`, para su realización deberemos de entender qué son las funciones variádicas `variadic functions` y cómo se utilizan a la hora de codificar.
+
 <br>
 
 ## 🐾 DESARROLLO
 
+La clave para resolver este proyecto está en **estructurar bien las funciones y dividir el trabajo** (*divide y venceras strategy!*).
+Antes de entrar en el algoritmo del proyecto, deberemos estar familiarizados con un par de puntos:
+
+1. ¿Qué son las funciones variádicas?
+2. ¿Cuál es el uso de la función printf y cómo maneja sus argumentos?
+
+### 1. ¿Qué son las funciones variádicas?
+
+En resumen, **las funciones variádicas** nos permiten recibir un **número variable de argumentos**.
+Esto nos da una gran abanico de posibilidades cuándo trabajamos con funciones que requieren **múltiples parámetros** de entrada o una gran variedad de tipos de datos.
+
+ℹ️ Para más información: [Funciones variádicas](https://trucosinformaticos.wordpress.com/2018/11/25/funciones-variadicas/)
+
+### 2. ¿Cuál es el uso de la función printf y cómo maneja sus argumentos?
+
+
+
+<details>
+  <summary>Prototipo y campos requeridos de PRINTF</summary>
+   <b>Prototipo: int printf(const char * format, ...);</b>
+  
+  ![image](https://user-images.githubusercontent.com/1337928/112623049-26777400-8e2c-11eb-90ce-ddfb273db9e0.png)
+
+</details>
+
+La función printf printea en la salida éstandar el valor de sus argumentos, después del primero, bajo el control del formato `format`. El formato es una cadena de caracteres que contiene tres tipos de objetos: **caracteres sin formato**, que simplemente se copian en la salida éstandar, **secuencia de escape de caracteres** que se convierten y se copian en la salida estándar, y especificadores de formato `format specifiers`, cada una de las cuáles causa la impresión `printing` del siguiente argumento.
+
+🔶 Por ejemplo: `total_chars = printf("hola soy %s, y tengo %d años.", "Juan", 26)`.
+1. printea en la salida estándar `"hola soy "`.
+2. lee el especificador del formato de tipo `char *` '%s' y printea su contenido del siguiente argumento: `"hola soy Juan"`.
+3. sigue printeando caracteres sin formato: "hola soy Juan, y tengo ".
+4. lee el ultimo especificador del formato de tipo `int` '%d': `"hola soy Juan, y tengo 26"`.
+5. finaliza los ultimos caracteres sin formato: `"hola soy Juan, y tengo 26 años."`.
+6. Retorna el número de caracteres printeados en total: `total_chars: 31`.
+
+ℹ️ Para más información: [Función printf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/format-specification-syntax-printf-and-wprintf-functions?view=msvc-160)
+
+<br>
+
+## 💥 ALGORITMO:
+
+Cada programador tiene diferente manera de pensar y de razonar a la hora de realizar un proyecto. En base a la experiencia es cuándo adquirimos conocimientos
+que nos llevan a desarrollar cada vez mejor. Para mí este proyecto lo he divido en una serie de pasos simples:
+
+1. Crear una lista enlazada de estructuras `struct` las cuales contengan información valiosa para cada *especificador de formato*. En su defecto, si el **formato** no contiene *especificadores*, printear los caracteres sin crear la lista.
+
+2. Por cada estructura, rellenamos sus variables en base a qué tipo de argumentos recibimos: 🔶 e.g: tipo `%d int`, `%s char *`, `%p pointer`, `%10.2u unsigned con width y precision`, ect..
+
+3. Comprobamos si cada elemento de nuestra lista contiene algún fallo en la **syntaxis del especificador de formato**: e.g: tipo `%432f.3$$d`.
+    - Si **existe un error**, **liberamos la memoria** asignada de nuestra lista de estructuras y **retornamos -1.**
+    - Caso contrario, procedemos a printear nuestro contenido. 
+
+4. Recorremos el formato buscando **caractes sin formato**, **caracteres de escape** y **caracteres con formato** hasta llegar al final de la string.
+5. Por último debemos **liberar la memoria asignada de nuestra lista**.
+6. Retornamos el **número de caracteres impresos.**
+
+<br><p align="center">❗❗❗ PARA MAYOR ENTENDIMIENTO, CONSULTAR LOS COMENTARIOS DEL CÓDIGO ❗❗❗ </p><br><br>
 
 =======================================================================================================
 # <h1 align="center">TABLA DE PROYECTOS</h1>
