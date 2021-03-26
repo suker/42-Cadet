@@ -145,6 +145,7 @@ Esta tarea es crucial entender para un futuro programador ya que gran parte de n
 
 Escribir una función que devuelva una línea dentro de un archivo de texto que termine con un salto de línea `char = '\n'`, leída desde un descriptor de archivos.
 
+ℹ️ Para más información: [PDF](https://github.com/suker/42-Cadet/blob/master/42-libft/es.subject.pdf)
 
 <br>
 
@@ -236,6 +237,8 @@ Netwhat es un cuestionario. Este proyecto sirve para evaluar y ayudar a adquirir
 Superar el cuestionario que se encuentra en [netwhat](https://www.netwhat.42.fr). Este cuestionario consta de 20 preguntas tanto teóricas como prácticas.
 Además para agregarle un mayor grado de dificultad, cada pregunta consta de 30 segundos para su respuesta. Buena Suerte ❕
 
+ℹ️ Para más información: [PDF](https://github.com/suker/42-Cadet/blob/master/42-netwhat/en.subject.pdf)
+
 <br>
 
 ## 🐾 DESARROLLO
@@ -274,6 +277,8 @@ La clave para un ft_printf exitoso es un **código extensible y bien estructurad
 ## 🎯 OBJETIVO
 
 En este proyecto se pretende recrear la función de la libreria estándar `printf`, para su realización deberemos de entender qué son las funciones variádicas `variadic functions` y cómo se utilizan a la hora de codificar.
+
+ℹ️ Para más información: [PDF](https://github.com/suker/42-Cadet/blob/master/42-ft_printf/es.subject.pdf)
 
 <br>
 
@@ -348,7 +353,7 @@ Este tema tiene como objetivo presentar la **administración del sistema**. Te h
 
 ## 🎯 OBJETIVO
 
-Crear y mantener un servidor web `Nginx` utilizando `Docker`. Usaremos los servicios de **Wordpress, phpmyadmin y MariaDB** para el despliegue de nuestra web.
+Crear y mantener un servidor web `Nginx` utilizando la tecnología `Docker` para el despligue de nuestra web. Usaremos los servicios de **Wordpress, phpmyadmin y MariaDB**.
 
 ℹ️ Para más información: [PDF](https://github.com/suker/42-Cadet/blob/master/42-ft_server/es.subject.pdf)
 
@@ -356,20 +361,20 @@ Crear y mantener un servidor web `Nginx` utilizando `Docker`. Usaremos los servi
 
 ## 🐾 DESARROLLO
 
-La clave para resolver este proyecto está en **estructurar bien las funciones y dividir el trabajo** (*divide y venceras strategy!*).
-Antes de entrar en el algoritmo del proyecto, deberemos estar familiarizados con un par de puntos:
+La mayor parte de este proyecto se basa en leer la documentación de cada uno de los apartados a implementar: `Docker` como gestor de aplicaciones `Nginx` cómo servidor web, `Wordpress` cómo gestor de contenido web, `phpmyadmin` cómo gestor de nuestra base de datos a través de la web, y por último, `SQL o MariaDB` cómo nuestra base de datos.
 
-1. **¿Qué son las funciones variádicas?**
-2. **¿Cuál es el uso de la función printf y cómo maneja sus argumentos?**
-
-### 1. ¿Qué son las funciones variádicas?
-
-En resumen, **las funciones variádicas** nos permiten recibir un **número variable de argumentos**.
-Esto nos da una gran abanico de posibilidades cuándo trabajamos con funciones que requieren **múltiples parámetros** de entrada o una gran variedad de tipos de datos.
-
-ℹ️ Para más información: [Funciones variádicas](https://trucosinformaticos.wordpress.com/2018/11/25/funciones-variadicas/)
-
-### 2. ¿Cuál es el uso de la función printf y cómo maneja sus argumentos?
+Recursos utilizados:
+- [Docker](https://docs.docker.com/get-started/)
+- [Nginx](http://nginx.org/en/docs/beginners_guide.html)
+- [Wordpress](https://es.wordpress.org/download/) Sólo hay que descargar el archivo .tar y descomprimir la carpeta en el directorio necesario ❗
+- [phpmyadmin](https://docs.phpmyadmin.net/es/latest/config.html)
+- [SQL](https://www.digitalocean.com/community/tutorials/crear-un-nuevo-usuario-y-otorgarle-permisos-en-mysql-es)
+- EXTRAS
+  - [Redireccionamiento HTTP hacia HTTPS en Nginx](https://linuxize.com/post/redirect-http-to-https-in-nginx/)
+  - [Comprensión de los algoritmos de selección de bloques de ubicación y servidor Nginx](https://www.digitalocean.com/community/tutorials/understanding-nginx-server-and-location-block-selection-algorithms)
+  - [Crear un SSL (Socket Secure Layer) certificado para Nginx en Ubuntu.18.4](https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-nginx-in-ubuntu-18-04)
+  - [Activar o desactivar autoindex en Nginx](https://www.keycdn.com/support/nginx-directory-index)
+  - [Videos de cómo montar tu servidor web usando estas tecnologias (MUY ÚTIL)](https://www.youtube.com/watch?v=_LQv96MdtCk)
 
 
 
@@ -380,7 +385,6 @@ Esto nos da una gran abanico de posibilidades cuándo trabajamos con funciones q
   ![image](https://user-images.githubusercontent.com/1337928/112623049-26777400-8e2c-11eb-90ce-ddfb273db9e0.png)
 
 </details>
-
 
 ℹ️ Para más información: [Función printf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/format-specification-syntax-printf-and-wprintf-functions?view=msvc-160)
 
